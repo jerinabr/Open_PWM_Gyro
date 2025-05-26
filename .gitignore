@@ -1,3 +1,6 @@
+# Ignore folders
+*-backups/
+
 # Ignore files
 fp-info-cache
 *.lck
