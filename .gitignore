@@ -2,5 +2,6 @@
 *-backups/
 
 # Ignore files
+\#auto_saved_files\#
 fp-info-cache
 *.lck
