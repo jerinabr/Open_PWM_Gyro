@@ -653,6 +653,14 @@
     [
       "01c12cb5-5cfe-484a-838c-9cbfa05ce5f4",
       "Root"
+    ],
+    [
+      "87a77d67-3d8f-46b5-bc75-fb3ef7ed61f6",
+      "Power & Connectors"
+    ],
+    [
+      "a83930c3-2f80-48e9-9a4a-06190542cdc6",
+      "MCU + IMU"
     ]
   ],
   "text_variables": {}
