@@ -25,7 +25,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "87a77d67-3d8f-46b5-bc75-fb3ef7ed61f6")
-		(property "Sheetname" "Power & Connectors"
+		(property "Sheetname" "Power + Connectors"
 			(at 101.6 88.1884 0)
 			(effects
 				(font

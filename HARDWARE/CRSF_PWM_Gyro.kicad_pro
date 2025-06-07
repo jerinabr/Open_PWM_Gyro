@@ -600,6 +600,12 @@
           "label": "Part Number",
           "name": "Part Number",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -656,7 +662,7 @@
     ],
     [
       "87a77d67-3d8f-46b5-bc75-fb3ef7ed61f6",
-      "Power & Connectors"
+      "Power + Connectors"
     ],
     [
       "a83930c3-2f80-48e9-9a4a-06190542cdc6",
