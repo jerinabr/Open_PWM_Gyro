@@ -2798,7 +2798,7 @@
 		)
 		(uuid "847d834b-6847-412b-be86-910a592f407e")
 	)
-	(text "BOOT0 pin\nConnect to GND for normal boot\nConnect to VCC for bootloader"
+	(text "BOOT0 pin select switch\nConnect to GND for normal boot\nConnect to VCC for bootloader"
 		(exclude_from_sim no)
 		(at 96.774 126.492 0)
 		(effects

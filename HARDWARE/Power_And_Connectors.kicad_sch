@@ -4636,7 +4636,7 @@
 	)
 	(global_label "CH6_PWM"
 		(shape input)
-		(at 250.19 80.01 180)
+		(at 250.19 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4646,7 +4646,7 @@
 		)
 		(uuid "115376fd-d6c5-4d9a-8882-1c6fc726cd02")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.2544 80.01 0)
+			(at 238.2544 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4724,7 +4724,7 @@
 	)
 	(global_label "CH3_PWM"
 		(shape input)
-		(at 250.19 57.15 180)
+		(at 250.19 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4734,7 +4734,7 @@
 		)
 		(uuid "39b974cd-5ca8-4c6c-a4f4-ceca59d5c6f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.2544 57.15 0)
+			(at 238.2544 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4900,50 +4900,6 @@
 	)
 	(global_label "CH2_PWM"
 		(shape input)
-		(at 250.19 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ab4dd581-72ac-41d4-8c07-0810ff1d4abc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.2544 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CH4_PWM"
-		(shape input)
-		(at 250.19 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c736515a-a050-4f46-b9c8-c7282070b722")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.2544 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CH5_PWM"
-		(shape input)
 		(at 250.19 72.39 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4952,7 +4908,7 @@
 			)
 			(justify right)
 		)
-		(uuid "dc5df626-8196-48b6-9172-dddc4893aa42")
+		(uuid "ab4dd581-72ac-41d4-8c07-0810ff1d4abc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 238.2544 72.39 0)
 			(effects
@@ -4964,9 +4920,53 @@
 			)
 		)
 	)
+	(global_label "CH4_PWM"
+		(shape input)
+		(at 250.19 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c736515a-a050-4f46-b9c8-c7282070b722")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.2544 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CH5_PWM"
+		(shape input)
+		(at 250.19 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc5df626-8196-48b6-9172-dddc4893aa42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.2544 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CH1_PWM"
 		(shape input)
-		(at 250.19 41.91 180)
+		(at 250.19 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4976,7 +4976,7 @@
 		)
 		(uuid "fdd5cc5b-4e3d-4c5e-bb97-7080ec80f427")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.2544 41.91 0)
+			(at 238.2544 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
