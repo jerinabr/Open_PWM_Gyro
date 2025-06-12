@@ -144,146 +144,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016)
@@ -2227,182 +2087,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPDT"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPDT_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0)
@@ -2768,7 +2452,7 @@
 	)
 	(text "NP0 (C0G) caps are used for the\noscillator to keep frequency\nstable with temperature changes"
 		(exclude_from_sim no)
-		(at 47.244 102.87 0)
+		(at 52.324 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2798,9 +2482,9 @@
 		)
 		(uuid "847d834b-6847-412b-be86-910a592f407e")
 	)
-	(text "BOOT0 pin select switch\nConnect to GND for normal boot\nConnect to VCC for bootloader"
+	(text "Boot switch\nPress switch on power-up causes MCU to\nboot from bootloader"
 		(exclude_from_sim no)
-		(at 96.774 126.492 0)
+		(at 106.172 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2819,9 +2503,9 @@
 		)
 		(uuid "cf89a69e-a05d-4176-adeb-1fb58c0477f5")
 	)
-	(text "nRST pin controlled by momentary switch or SWD interface"
+	(text "nRST pin controlled by SWD interface\nAdd C11 for debounce and R3 for a stronger pull-up\nBoth these components are optional"
 		(exclude_from_sim no)
-		(at 47.244 160.02 0)
+		(at 35.56 151.638 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2832,7 +2516,7 @@
 	)
 	(text "Crystal C_{L} = 10pF\nAssume C_{stray} ~= 5pF\nC_{L1} = C_{L2} = 2*(C_{L}-C_{stray}) = 10pF\nFrom app note AN2867"
 		(exclude_from_sim no)
-		(at 49.784 65.024 0)
+		(at 38.354 65.024 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2878,10 +2562,16 @@
 		(uuid "18a89454-fa78-4aae-8d60-241119701d96")
 	)
 	(junction
-		(at 48.26 83.82)
+		(at 36.83 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18b8a956-7b28-406a-843c-22cbb50507d4")
+	)
+	(junction
+		(at 50.8 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b7afb55-abcd-454c-8f16-6af69216eadb")
 	)
 	(junction
 		(at 228.6 85.09)
@@ -2890,7 +2580,7 @@
 		(uuid "3a167406-9443-4c82-9cb1-30402ca08345")
 	)
 	(junction
-		(at 68.58 83.82)
+		(at 57.15 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a5a3949-be70-4aff-8972-c01868fdde6f")
@@ -2938,22 +2628,22 @@
 		(uuid "8b1329cf-af66-4042-b560-f94bda9458a2")
 	)
 	(junction
-		(at 58.42 91.44)
+		(at 46.99 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92aecea9-0ad8-4158-b5e1-581003588467")
+	)
+	(junction
+		(at 101.6 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ded0261-5d0a-435f-bfc9-31cb951cc972")
 	)
 	(junction
 		(at 234.95 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a27cc06b-06a0-4ac6-bb9f-2f6c147b6373")
-	)
-	(junction
-		(at 66.04 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a43fd88b-fddb-4615-a74c-0adc062b6832")
 	)
 	(junction
 		(at 140.97 55.88)
@@ -2966,12 +2656,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad6c511d-0be2-4dff-81c4-43194ea2227d")
-	)
-	(junction
-		(at 55.88 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b934a6b6-98e2-44ba-89bf-694faffa0b83")
 	)
 	(junction
 		(at 130.81 48.26)
@@ -2993,15 +2677,9 @@
 		(at 153.67 102.87)
 		(uuid "e6282053-b464-4d52-a028-52090a325252")
 	)
-	(wire
-		(pts
-			(xy 124.46 116.84) (xy 124.46 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00f3132e-9905-4145-b7ea-b978eca4e56c")
+	(no_connect
+		(at 153.67 87.63)
+		(uuid "e92559fd-3c25-48b3-8366-60cd29ece791")
 	)
 	(wire
 		(pts
@@ -3025,7 +2703,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 83.82) (xy 54.61 83.82)
+			(xy 36.83 83.82) (xy 43.18 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3085,7 +2763,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 72.39) (xy 128.27 72.39)
+			(xy 57.15 72.39) (xy 128.27 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3125,6 +2803,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 128.27) (xy 50.8 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26de10e1-5adb-4977-af72-2bac217ff4a8")
+	)
+	(wire
+		(pts
 			(xy 228.6 80.01) (xy 228.6 82.55)
 		)
 		(stroke
@@ -3155,23 +2843,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 88.9) (xy 58.42 91.44)
+			(xy 46.99 88.9) (xy 46.99 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2f82c893-18c6-403c-b475-ccc5baf28d07")
-	)
-	(wire
-		(pts
-			(xy 124.46 92.71) (xy 128.27 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30c58c7b-5e84-40c0-b017-71f4f88d4514")
 	)
 	(wire
 		(pts
@@ -3215,16 +2893,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 87.63) (xy 157.48 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38d107d0-6f14-424c-9f5d-9279f31e4ef8")
-	)
-	(wire
-		(pts
 			(xy 124.46 85.09) (xy 128.27 85.09)
 		)
 		(stroke
@@ -3245,26 +2913,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 149.86) (xy 66.04 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bc7a33f-4458-43d0-a014-a2b026981c8f")
-	)
-	(wire
-		(pts
-			(xy 91.44 119.38) (xy 95.25 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ebc4075-fc9f-4ffe-a017-baec86fdd490")
-	)
-	(wire
-		(pts
 			(xy 228.6 59.69) (xy 228.6 64.77)
 		)
 		(stroke
@@ -3275,7 +2923,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 91.44) (xy 58.42 91.44)
+			(xy 36.83 91.44) (xy 46.99 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3285,33 +2933,23 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 146.05) (xy 71.12 146.05)
+			(xy 124.46 134.62) (xy 101.6 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41024e2d-9bb1-4a32-9670-2d6f61d4bd27")
+		(uuid "4b57941c-ef09-470c-b0a2-164845f5383d")
 	)
 	(wire
 		(pts
-			(xy 48.26 69.85) (xy 48.26 83.82)
+			(xy 36.83 69.85) (xy 36.83 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4c76921e-4524-4cb4-8757-4bad3c8031de")
-	)
-	(wire
-		(pts
-			(xy 49.53 146.05) (xy 55.88 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51ecd71c-e33e-46c5-8303-5c6dd76929c1")
 	)
 	(wire
 		(pts
@@ -3332,6 +2970,16 @@
 			(type default)
 		)
 		(uuid "55a76436-f75a-4d32-9886-8269f6cd2ac7")
+	)
+	(wire
+		(pts
+			(xy 101.6 134.62) (xy 101.6 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58580e81-4d6f-4daa-9302-342d8f52112b")
 	)
 	(wire
 		(pts
@@ -3375,7 +3023,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 72.39) (xy 68.58 83.82)
+			(xy 57.15 72.39) (xy 57.15 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3392,16 +3040,6 @@
 			(type default)
 		)
 		(uuid "6d13fd0f-3307-4f3c-b5ff-0f4072dc9605")
-	)
-	(wire
-		(pts
-			(xy 55.88 146.05) (xy 55.88 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "701db1fc-c370-4d4b-8ead-9c0adfe9e028")
 	)
 	(wire
 		(pts
@@ -3425,16 +3063,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 149.86) (xy 49.53 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76a0f6f9-cbdb-4f4e-8eff-8d49c5a20c17")
-	)
-	(wire
-		(pts
 			(xy 228.6 74.93) (xy 228.6 80.01)
 		)
 		(stroke
@@ -3445,7 +3073,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 91.44) (xy 68.58 91.44)
+			(xy 46.99 91.44) (xy 57.15 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3462,16 +3090,6 @@
 			(type default)
 		)
 		(uuid "7daf7799-fdfb-4774-9734-4994de0cd9a7")
-	)
-	(wire
-		(pts
-			(xy 91.44 114.3) (xy 95.25 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81332d41-f7e9-4d93-9486-ea49d9ea4feb")
 	)
 	(wire
 		(pts
@@ -3495,7 +3113,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 69.85) (xy 128.27 69.85)
+			(xy 36.83 69.85) (xy 128.27 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3515,23 +3133,33 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 83.82) (xy 68.58 83.82)
+			(xy 128.27 92.71) (xy 124.46 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "874e87d0-3b83-45b8-b13e-373a6f8da068")
+	)
+	(wire
+		(pts
+			(xy 124.46 92.71) (xy 124.46 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "897bbe39-dcc7-44d3-a9fd-04d004d028e1")
+	)
+	(wire
+		(pts
+			(xy 50.8 83.82) (xy 57.15 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "928c39bd-c9e8-4903-95ec-09da96b45ed5")
-	)
-	(wire
-		(pts
-			(xy 55.88 149.86) (xy 58.42 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92edd231-5a7f-458c-8bf4-ad8be25e2f9c")
 	)
 	(wire
 		(pts
@@ -3565,6 +3193,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 130.81) (xy 50.8 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa36aad3-2b90-4471-960b-7132ad6e00e0")
+	)
+	(wire
+		(pts
 			(xy 227.33 74.93) (xy 228.6 74.93)
 		)
 		(stroke
@@ -3572,6 +3210,16 @@
 			(type default)
 		)
 		(uuid "abbb80b8-172a-4ddf-9b88-f67e67ff2d6d")
+	)
+	(wire
+		(pts
+			(xy 50.8 130.81) (xy 50.8 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac4068d6-be64-428b-8371-9b65383341d4")
 	)
 	(wire
 		(pts
@@ -3605,16 +3253,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 116.84) (xy 124.46 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b320e3f6-f820-4864-abab-3de8324dbf23")
-	)
-	(wire
-		(pts
 			(xy 190.5 125.73) (xy 190.5 130.81)
 		)
 		(stroke
@@ -3632,16 +3270,6 @@
 			(type default)
 		)
 		(uuid "bd830743-b5b8-4ef4-ad07-f181d69cbcdd")
-	)
-	(wire
-		(pts
-			(xy 105.41 116.84) (xy 109.22 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bea59d69-4d44-456c-9c5b-80d36da9d1a0")
 	)
 	(wire
 		(pts
@@ -3672,16 +3300,6 @@
 			(type default)
 		)
 		(uuid "c568adfc-3201-465e-9edd-34d271c93a75")
-	)
-	(wire
-		(pts
-			(xy 66.04 149.86) (xy 66.04 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c95c6c52-c8ba-4245-9a76-ead96f93d4ec")
 	)
 	(wire
 		(pts
@@ -3725,7 +3343,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 78.74) (xy 58.42 77.47)
+			(xy 46.99 78.74) (xy 46.99 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3782,6 +3400,16 @@
 			(type default)
 		)
 		(uuid "e551079b-c5c6-4396-9c34-6dce37e409c9")
+	)
+	(wire
+		(pts
+			(xy 101.6 133.35) (xy 101.6 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5636b72-650c-4dc1-827a-02440228fb87")
 	)
 	(wire
 		(pts
@@ -3845,7 +3473,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 77.47) (xy 52.07 77.47)
+			(xy 46.99 77.47) (xy 40.64 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4095,28 +3723,6 @@
 			)
 		)
 	)
-	(global_label "CRSF_MCU_to_RX"
-		(shape output)
-		(at 157.48 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "793ffefc-6e2d-4ee6-a8a1-124d40005678")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.6122 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "STATUS_LED_RED"
 		(shape output)
 		(at 124.46 82.55 180)
@@ -4273,7 +3879,7 @@
 	)
 	(global_label "N_RESET"
 		(shape input)
-		(at 71.12 146.05 0)
+		(at 54.61 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4283,7 +3889,7 @@
 		)
 		(uuid "e53bbc4c-e425-4d9c-bf3d-7b98467d430f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.1484 146.05 0)
+			(at 65.6384 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,15 +3923,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 111.76 116.84 270)
+		(at 101.6 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "00980aaf-a93b-4c87-a08e-30a14bca100a")
-		(property "Reference" "R4"
-			(at 111.76 119.634 90)
+		(property "Reference" "R5"
+			(at 97.79 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4333,15 +3940,15 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 111.76 122.174 90)
+			(at 97.79 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 111.76 116.84 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 101.6 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4350,7 +3957,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 116.84 0)
+			(at 101.6 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4359,7 +3966,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 111.76 116.84 0)
+			(at 101.6 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,8 +3974,18 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "311-10.0KHRTR-ND"
-			(at 111.76 116.84 0)
+		(property "Part Number" "311-10KJRCT-ND"
+			(at 101.6 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "RC0402JR-0710KL"
+			(at 101.6 138.43 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4385,7 +4002,7 @@
 		(instances
 			(project "CRSF_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4401,7 +4018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "046aa732-1b0b-42f1-ab15-873b84e62513")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR09"
 			(at 246.38 73.66 0)
 			(effects
 				(font
@@ -4451,7 +4068,7 @@
 		(instances
 			(project "CRSF_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "#PWR018")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4515,6 +4132,16 @@
 		)
 		(property "Part Number" "497-19470-ND"
 			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "STM32G431KBT6"
+			(at 140.97 85.09 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4629,15 +4256,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 48.26 87.63 0)
+		(at 36.83 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "13c7d97f-603a-4e96-ba97-c193aa4aeb02")
-		(property "Reference" "CL1"
-			(at 40.386 86.36 0)
+		(property "Reference" "C10"
+			(at 28.956 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,7 +4274,7 @@
 			)
 		)
 		(property "Value" "10p"
-			(at 40.386 88.9 0)
+			(at 28.956 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4654,8 +4282,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 49.2252 91.44 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 37.7952 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,7 +4292,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 87.63 0)
+			(at 36.83 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,7 +4301,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 48.26 87.63 0)
+			(at 36.83 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4681,8 +4309,18 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "311-3908-2-ND"
-			(at 48.26 87.63 0)
+		(property "Part Number" "311-1014-1-ND"
+			(at 36.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "CC0402JRNPO9BN100"
+			(at 36.83 87.63 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4699,73 +4337,7 @@
 		(instances
 			(project "CRSF_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "CL1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 91.44 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13ffe09e-63b0-405f-af95-8e02abc7c914")
-		(property "Reference" "#PWR010"
-			(at 91.44 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 91.44 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 91.44 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fc3640f-bd75-4155-b08d-dac822e9639e")
-		)
-		(instances
-			(project "CRSF_PWM_Gyro"
-				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "#PWR010")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -4781,7 +4353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1957239b-3aa2-4586-873f-b547ac1d0265")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR012"
 			(at 228.6 102.87 0)
 			(effects
 				(font
@@ -4831,7 +4403,7 @@
 		(instances
 			(project "CRSF_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "#PWR016")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4845,8 +4417,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1f857793-e432-48ef-9221-0a62af75fbb0")
-		(property "Reference" "C13"
+		(property "Reference" "C6"
 			(at 112.014 51.054 0)
 			(effects
 				(font
@@ -4864,7 +4437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 120.3452 55.88 0)
 			(effects
 				(font
@@ -4891,8 +4464,18 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "311-1341-2-ND"
+		(property "Part Number" "1276-6720-1-ND"
 			(at 119.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "CL05B104KA5NNNC"
+			(at 119.38 52.07 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4909,7 +4492,7 @@
 		(instances
 			(project "CRSF_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "C13")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5009,8 +4592,18 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "1428-1152-2-ND"
+		(property "Part Number" "1428-1152-1-ND"
 			(at 212.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "ICM-42605"
+			(at 212.09 74.93 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,8 +4670,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "27df023c-8ff8-499a-b44a-85e5f24d1fd8")
-		(property "Reference" "C12"
+		(property "Reference" "C5"
 			(at 100.584 51.054 0)
 			(effects
 				(font
@@ -5096,7 +4690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 108.9152 55.88 0)
 			(effects
 				(font
@@ -5123,8 +4717,18 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "311-1341-2-ND"
+		(property "Part Number" "1276-6720-1-ND"
 			(at 107.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "CL05B104KA5NNNC"
+			(at 107.95 52.07 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5141,7 +4745,73 @@
 		(instances
 			(project "CRSF_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "C12")
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 101.6 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39f88bc7-c360-4b99-8bbf-64baf3a75eba")
+		(property "Reference" "#PWR015"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 101.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 101.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4905dad5-c1db-42e5-a96d-f84404f34c79")
+		)
+		(instances
+			(project "CRSF_PWM_Gyro"
+				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5157,7 +4827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b9b9e78-7fea-4794-948d-5ff9138fd605")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR08"
 			(at 246.38 63.5 0)
 			(effects
 				(font
@@ -5207,7 +4877,96 @@
 		(instances
 			(project "CRSF_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "#PWR017")
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 101.6 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46757513-9c6c-4f57-aa5c-91368e67876d")
+		(property "Reference" "SW1"
+			(at 99.314 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 99.314 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD_Custom:R-667995_MIT"
+			(at 101.6 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 101.6 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "2508-R-667995TR-ND"
+			(at 101.6 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "R-667995"
+			(at 101.6 128.27 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "976dd162-c61d-428b-80e1-8511191121f0")
+		)
+		(pin "2"
+			(uuid "424d6acc-4f6e-4b46-9e0f-016be15e1b81")
+		)
+		(instances
+			(project ""
+				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -5223,7 +4982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "496b8817-940f-48ce-be92-8fecdb20afa6")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 140.97 118.11 0)
 			(effects
 				(font
@@ -5273,7 +5032,7 @@
 		(instances
 			(project "CRSF_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5281,15 +5040,16 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND24")
-		(at 58.42 83.82 0)
+		(at 46.99 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "50f6eac4-5090-4e80-90cc-5cddd06d9ef5")
 		(property "Reference" "Y1"
-			(at 58.42 72.644 0)
+			(at 46.99 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5297,15 +5057,15 @@
 			)
 		)
 		(property "Value" "Crystal_GND24"
-			(at 58.42 75.184 0)
+			(at 46.99 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Crystal_Custom:XTAL_ECS-80-10-30B-CKM-TR"
-			(at 58.42 83.82 0)
+		(property "Footprint" "Crystal_Custom:Crystal_SMD_ECS_ECX_2236-4Pin_2.5x2.0mm"
+			(at 46.99 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5314,7 +5074,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 83.82 0)
+			(at 46.99 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5323,7 +5083,7 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
-			(at 58.42 83.82 0)
+			(at 46.99 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5331,8 +5091,18 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "50-ECS-80-10-30B-CKM-TR-ND"
-			(at 58.42 83.82 0)
+		(property "Part Number" "50-ECS-160-10-36-CKM-TR3TR-ND"
+			(at 46.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "ECS-160-10-36-CKM-TR3"
+			(at 46.99 83.82 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5371,7 +5141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6da3427c-a437-4b02-9f9f-a7a034f2347e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 190.5 129.54 0)
 			(effects
 				(font
@@ -5421,7 +5191,7 @@
 		(instances
 			(project "CRSF_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5435,8 +5205,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "79782732-9c4d-450d-95bc-11a0c3eea015")
-		(property "Reference" "C16"
+		(property "Reference" "C9"
 			(at 250.444 62.23 0)
 			(effects
 				(font
@@ -5454,7 +5225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 247.3452 67.31 0)
 			(effects
 				(font
@@ -5481,8 +5252,18 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "311-1341-2-ND"
+		(property "Part Number" "1276-6720-1-ND"
 			(at 246.38 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "CL05B104KA5NNNC"
+			(at 246.38 63.5 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,7 +5280,7 @@
 		(instances
 			(project "CRSF_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "C16")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5507,7 +5288,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 91.44 0)
+		(at 46.99 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5515,8 +5296,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ad52704-6063-44d7-b351-ca37ad732e08")
-		(property "Reference" "#PWR09"
-			(at 58.42 97.79 0)
+		(property "Reference" "#PWR011"
+			(at 46.99 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5525,7 +5306,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 96.52 0)
+			(at 46.99 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +5314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 91.44 0)
+			(at 46.99 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5542,7 +5323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 91.44 0)
+			(at 46.99 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,7 +5332,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 91.44 0)
+			(at 46.99 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,7 +5346,7 @@
 		(instances
 			(project "CRSF_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5573,7 +5354,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 68.58 87.63 0)
+		(at 57.15 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5581,8 +5362,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82438ca8-369c-4f0c-a9f8-f4863ad28e91")
-		(property "Reference" "CL2"
-			(at 72.39 86.3599 0)
+		(property "Reference" "C11"
+			(at 60.96 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5591,7 +5372,7 @@
 			)
 		)
 		(property "Value" "10p"
-			(at 72.39 88.8999 0)
+			(at 60.96 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5599,8 +5380,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 69.5452 91.44 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 58.1152 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5609,7 +5390,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 87.63 0)
+			(at 57.15 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5618,7 +5399,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 68.58 87.63 0)
+			(at 57.15 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5626,8 +5407,18 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "311-3908-2-ND"
-			(at 68.58 87.63 0)
+		(property "Part Number" "311-1014-1-ND"
+			(at 57.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "CC0402JRNPO9BN100"
+			(at 57.15 87.63 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5644,7 +5435,7 @@
 		(instances
 			(project "CRSF_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "CL2")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -5652,15 +5443,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 77.47 0)
+		(at 40.64 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "84a6d355-5c13-40ec-85ee-5130aac2f889")
-		(property "Reference" "#PWR08"
-			(at 52.07 83.82 0)
+		(property "Reference" "#PWR010"
+			(at 40.64 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5669,7 +5461,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 81.534 0)
+			(at 40.64 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5677,7 +5469,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 77.47 0)
+			(at 40.64 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5686,7 +5478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 77.47 0)
+			(at 40.64 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5695,7 +5487,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 77.47 0)
+			(at 40.64 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,87 +5501,7 @@
 		(instances
 			(project "CRSF_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 100.33 116.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89cad787-0c50-408b-8be8-91cee7c79556")
-		(property "Reference" "BOOT_SW1"
-			(at 100.33 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 100.33 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT_Custom:SW_SLW-883935-2A-D"
-			(at 100.33 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 100.33 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "2223-SLW-883935-2A-D-ND"
-			(at 100.33 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f39c929e-b08f-4588-92b4-50dad8dab1c1")
-		)
-		(pin "2"
-			(uuid "b0bda757-7327-40c8-94a1-75c7fec70343")
-		)
-		(pin "1"
-			(uuid "c749b743-8a3b-4790-8beb-a15f3bba2db0")
-		)
-		(instances
-			(project "CRSF_PWM_Gyro"
-				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "BOOT_SW1")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5803,8 +5515,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "8a154c1d-29d8-4a24-b43f-17058d832c1f")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 196.85 138.684 90)
 			(effects
 				(font
@@ -5820,7 +5533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 196.85 135.89 0)
 			(effects
 				(font
@@ -5847,8 +5560,18 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "311-68.0HRTR-ND"
+		(property "Part Number" "311-68.0LRCT-ND"
 			(at 196.85 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "RC0402FR-0768RL"
+			(at 196.85 135.89 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5865,7 +5588,7 @@
 		(instances
 			(project "CRSF_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5881,7 +5604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94b6c7dd-7f08-4418-9fa2-4a92d7bb053c")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR07"
 			(at 107.95 62.23 0)
 			(effects
 				(font
@@ -5931,7 +5654,7 @@
 		(instances
 			(project "CRSF_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "#PWR013")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5945,8 +5668,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "971730a6-b820-4795-9d6c-05d588f75540")
-		(property "Reference" "C15"
+		(property "Reference" "C8"
 			(at 237.998 62.23 0)
 			(effects
 				(font
@@ -5964,7 +5688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 235.9152 67.31 0)
 			(effects
 				(font
@@ -5991,8 +5715,18 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "311-1341-2-ND"
+		(property "Part Number" "1276-6720-1-ND"
 			(at 234.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "CL05B104KA5NNNC"
+			(at 234.95 63.5 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6009,23 +5743,24 @@
 		(instances
 			(project "CRSF_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "C15")
+					(reference "C8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 60.96 149.86 270)
+		(lib_id "Device:C")
+		(at 50.8 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9faf8278-4d59-4505-aa72-83c84770e662")
-		(property "Reference" "C11"
-			(at 62.23 152.4 0)
+		(fields_autoplaced yes)
+		(uuid "9c8666f3-cfa3-4a11-8444-06a1ede680f4")
+		(property "Reference" "C12"
+			(at 53.848 136.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6034,7 +5769,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 59.69 152.4 0)
+			(at 53.848 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6042,8 +5777,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 60.96 149.86 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 51.7652 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6052,7 +5787,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 149.86 0)
+			(at 50.8 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6060,8 +5795,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 60.96 149.86 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 50.8 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6069,8 +5804,18 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "311-1341-2-ND"
-			(at 60.96 149.86 0)
+		(property "Part Number" "1276-6720-1-ND"
+			(at 50.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "CL05B104KA5NNNC"
+			(at 50.8 137.16 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6079,15 +5824,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "b69d4152-7314-4ba9-ae11-14c4a69df117")
+			(uuid "1005a219-f183-43f5-b77e-d7a4b280cf34")
 		)
 		(pin "2"
-			(uuid "0abefa25-b41c-4270-98c7-6f6b7f270506")
+			(uuid "9c2220e9-253b-4774-b287-1c852c050dd0")
 		)
 		(instances
 			(project "CRSF_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "C11")
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 50.8 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1d5b056-2de3-437f-be45-e86481fceb5e")
+		(property "Reference" "#PWR014"
+			(at 50.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 50.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 50.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23eb8747-e804-4a8c-af97-9cf5cdfc581a")
+		)
+		(instances
+			(project "CRSF_PWM_Gyro"
+				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6103,7 +5914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac701b35-d4d1-48e7-9661-3e44192e9c7a")
-		(property "Reference" "STATUS1"
+		(property "Reference" "LED1"
 			(at 209.423 121.92 0)
 			(effects
 				(font
@@ -6146,8 +5957,18 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "754-1506-2-ND"
+		(property "Part Number" "754-1506-1-ND"
 			(at 209.55 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "APHBM2012QBDSURKC"
+			(at 209.55 133.35 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,84 +5991,7 @@
 		(instances
 			(project ""
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "STATUS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 60.96 146.05 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf9fbe08-72ea-4da6-aeba-becae8d9fdbc")
-		(property "Reference" "NRST1"
-			(at 60.96 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 60.96 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD_Custom:SW_Tactile_SPST_PTS636SK25FSMTRLFS"
-			(at 60.96 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 60.96 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CKN12330-2-ND"
-			(at 60.96 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ee88409-a280-4179-a01d-06046bc2cd6d")
-		)
-		(pin "2"
-			(uuid "1ca2fe5a-5550-4bbb-a272-93ecd7dd5974")
-		)
-		(instances
-			(project "CRSF_PWM_Gyro"
-				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "NRST1")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -6255,7 +5999,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 119.38 0)
+		(at 101.6 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6263,8 +6007,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3a1a827-e9d4-4f22-9fa9-19469cb05035")
-		(property "Reference" "#PWR011"
-			(at 91.44 125.73 0)
+		(property "Reference" "#PWR018"
+			(at 101.6 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6273,7 +6017,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 124.46 0)
+			(at 101.6 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6281,7 +6025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 119.38 0)
+			(at 101.6 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6290,7 +6034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 119.38 0)
+			(at 101.6 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6299,7 +6043,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 119.38 0)
+			(at 101.6 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6313,7 +6057,7 @@
 		(instances
 			(project "CRSF_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "#PWR011")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6329,7 +6073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb639ab3-fddf-415b-9671-030057d9cc1d")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR06"
 			(at 107.95 52.07 0)
 			(effects
 				(font
@@ -6379,7 +6123,7 @@
 		(instances
 			(project "CRSF_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "#PWR012")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6393,8 +6137,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "efb2aed9-724f-4a10-a2a2-75aa3430d81f")
-		(property "Reference" "C14"
+		(property "Reference" "C7"
 			(at 123.444 51.054 0)
 			(effects
 				(font
@@ -6412,7 +6157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 131.7752 55.88 0)
 			(effects
 				(font
@@ -6439,8 +6184,18 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "311-1341-2-ND"
+		(property "Part Number" "1276-6720-1-ND"
 			(at 130.81 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "CL05B104KA5NNNC"
+			(at 130.81 52.07 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6457,7 +6212,96 @@
 		(instances
 			(project "CRSF_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "C14")
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 50.8 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efc7d5d8-8e6d-4f0d-a50c-a408910b23b9")
+		(property "Reference" "R3"
+			(at 53.34 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 53.34 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 50.8 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 50.8 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "311-10KJRCT-ND"
+			(at 50.8 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "RC0402JR-0710KL"
+			(at 50.8 125.73 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55f0ab52-9bd9-4bf3-bb37-699e7e5fd0fe")
+		)
+		(pin "1"
+			(uuid "f1165c44-df96-469b-b45f-2df96ace5bc3")
+		)
+		(instances
+			(project ""
+				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6465,7 +6309,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 149.86 0)
+		(at 50.8 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6473,8 +6317,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff21f33d-0458-4ffd-8158-57f1f8670e29")
-		(property "Reference" "#PWR07"
-			(at 49.53 156.21 0)
+		(property "Reference" "#PWR017"
+			(at 50.8 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6483,7 +6327,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 154.94 0)
+			(at 50.8 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6491,7 +6335,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 149.86 0)
+			(at 50.8 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6500,7 +6344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 149.86 0)
+			(at 50.8 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6509,7 +6353,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 149.86 0)
+			(at 50.8 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6523,7 +6367,7 @@
 		(instances
 			(project "CRSF_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4/a83930c3-2f80-48e9-9a4a-06190542cdc6"
-					(reference "#PWR07")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
