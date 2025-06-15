@@ -2901,6 +2901,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Bulk capacitor for servos"
+		(exclude_from_sim no)
+		(at 179.07 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1050077b-1e85-4e6e-ba55-a0100054da2c")
+	)
 	(text "Power ORing to prevent USB\nfrom powering ESC/servos\nand vice versa"
 		(exclude_from_sim no)
 		(at 88.646 24.384 0)
@@ -2912,7 +2923,7 @@
 		)
 		(uuid "7c441aa9-fca5-474e-aa73-caa3e5ae8330")
 	)
-	(text "3x7 ESC/Servo PWM + CRSF Header\nRow 1: PWM/CRSF\nRow 2: +5V\nRow 3: GND\n\nThis is one header so that KiCAD exports this as\none item in the BOM instead of six separate headers\nbecause this is a single part"
+	(text "3x7 ESC/Servo PWM + CRSF Header\nRow 1: PWM/CRSF\nRow 2: +5V\nRow 3: GND\n\nThis is one header so that KiCAD exports this as\none item in the BOM instead of seven separate headers\nbecause this is a single part"
 		(exclude_from_sim no)
 		(at 201.676 33.782 0)
 		(effects
