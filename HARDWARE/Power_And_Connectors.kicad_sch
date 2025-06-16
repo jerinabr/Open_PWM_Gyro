@@ -4318,7 +4318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "13-RC0402FR-135K1LCT-ND"
+		(property "DigiKey Part #" "13-RC0402FR-135K1LCT-ND"
 			(at 80.01 45.72 0)
 			(effects
 				(font
@@ -4327,9 +4327,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "RC0402FR-135K1L"
+		(property "Mfg Part #" "RC0402FR-135K1L"
 			(at 80.01 45.72 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 80.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 80.01 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4406,7 +4423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "1276-1445-1-ND"
+		(property "DigiKey Part #" "1276-1445-1-ND"
 			(at 119.38 133.35 0)
 			(effects
 				(font
@@ -4415,9 +4432,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "CL05A105KA5NQNC"
+		(property "Mfg Part #" "CL05A105KA5NQNC"
 			(at 119.38 133.35 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 119.38 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 119.38 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +4527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "1727-5188-2-ND"
+		(property "DigiKey Part #" "1727-5188-2-ND"
 			(at 101.6 38.1 0)
 			(effects
 				(font
@@ -4502,9 +4536,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "PMEG2005CT,215"
+		(property "Mfg Part #" "PMEG2005CT,215"
 			(at 101.6 38.1 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Nexperia USA Inc."
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "3-SOT"
+			(at 101.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4584,7 +4635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "732-8413-1-ND"
+		(property "DigiKey Part #" "732-8413-1-ND"
 			(at 210.82 97.79 0)
 			(effects
 				(font
@@ -4593,9 +4644,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "865080340003"
+		(property "Mfg Part #" "865080340003"
 			(at 210.82 97.79 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Würth Elektronik"
+			(at 210.82 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Radial, Can - SMD"
+			(at 210.82 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4801,7 +4869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "13-RC0402FR-135K1LCT-ND"
+		(property "DigiKey Part #" "13-RC0402FR-135K1LCT-ND"
 			(at 72.39 48.26 0)
 			(effects
 				(font
@@ -4810,9 +4878,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "RC0402FR-135K1L"
+		(property "Mfg Part #" "RC0402FR-135K1L"
 			(at 72.39 48.26 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 72.39 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 72.39 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4890,7 +4975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "TCR2EF33LM(CTTR-ND"
+		(property "DigiKey Part #" "TCR2EF33LM(CTTR-ND"
 			(at 119.38 52.07 0)
 			(effects
 				(font
@@ -4899,9 +4984,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "TCR2EF33,LM(CT"
+		(property "Mfg Part #" "TCR2EF33,LM(CT"
 			(at 119.38 52.07 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Toshiba Semiconductor and Storage"
+			(at 119.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "5-SOT"
+			(at 119.38 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5053,7 +5155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "1276-6720-1-ND"
+		(property "DigiKey Part #" "1276-6720-1-ND"
 			(at 107.95 64.77 0)
 			(effects
 				(font
@@ -5062,9 +5164,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "CL05B104KA5NNNC"
+		(property "Mfg Part #" "CL05B104KA5NNNC"
 			(at 107.95 64.77 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 107.95 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 107.95 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5272,7 +5391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "S9015E-05-ND"
+		(property "DigiKey Part #" "S9015E-05-ND"
 			(at 137.16 133.35 0)
 			(effects
 				(font
@@ -5281,9 +5400,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "GRPB052VWVN-RC"
+		(property "Mfg Part #" "GRPB052VWVN-RC"
 			(at 137.16 133.35 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Sullins Connector Solutions"
+			(at 137.16 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "10POS"
+			(at 137.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5385,7 +5521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "1276-1445-1-ND"
+		(property "DigiKey Part #" "1276-1445-1-ND"
 			(at 154.94 64.77 0)
 			(effects
 				(font
@@ -5394,9 +5530,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "CL05A105KA5NQNC"
+		(property "Mfg Part #" "CL05A105KA5NQNC"
 			(at 154.94 64.77 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 154.94 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 154.94 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,7 +5690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "2073-USB4105-GF-ATR-ND"
+		(property "DigiKey Part #" "2073-USB4105-GF-ATR-ND"
 			(at 39.37 55.88 0)
 			(effects
 				(font
@@ -5546,9 +5699,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "USB4105-GF-A"
+		(property "Mfg Part #" "USB4105-GF-A"
 			(at 39.37 55.88 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "GCT"
+			(at 39.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "USB-C"
+			(at 39.37 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,9 +5907,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "TSW-107-26-F-T"
+		(property "DigiKey Part #" "TSW-107-26-F-T-ND"
 			(at 247.65 72.39 0)
-			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,7 +5916,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "TSW-107-26-F-T-ND"
+		(property "MANUFACTURER" "Samtec Inc."
+			(at 247.65 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "TSW-107-26-F-T"
+			(at 247.65 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "21POS"
 			(at 247.65 72.39 0)
 			(effects
 				(font

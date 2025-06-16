@@ -3974,7 +3974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "311-10KJRCT-ND"
+		(property "DigiKey Part #" "311-10KJRCT-ND"
 			(at 101.6 138.43 0)
 			(effects
 				(font
@@ -3983,9 +3983,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "RC0402JR-0710KL"
+		(property "Mfg Part #" "RC0402JR-0710KL"
 			(at 101.6 138.43 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 101.6 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 101.6 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4130,7 +4147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "497-19470-ND"
+		(property "DigiKey Part #" "497-19470-ND"
 			(at 140.97 85.09 0)
 			(effects
 				(font
@@ -4139,9 +4156,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "STM32G431KBT6"
+		(property "Mfg Part #" "STM32G431KBT6"
 			(at 140.97 85.09 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "STMicroelectronics"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "32-QFP"
+			(at 140.97 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4309,7 +4343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "311-1014-1-ND"
+		(property "DigiKey Part #" "311-1014-1-ND"
 			(at 36.83 87.63 0)
 			(effects
 				(font
@@ -4318,9 +4352,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "CC0402JRNPO9BN100"
+		(property "Mfg Part #" "CC0402JRNPO9BN100"
 			(at 36.83 87.63 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 36.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 36.83 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4464,7 +4515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "1276-6720-1-ND"
+		(property "DigiKey Part #" "1276-6720-1-ND"
 			(at 119.38 52.07 0)
 			(effects
 				(font
@@ -4473,9 +4524,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "CL05B104KA5NNNC"
+		(property "Mfg Part #" "CL05B104KA5NNNC"
 			(at 119.38 52.07 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 119.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 119.38 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +4660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "1428-1152-1-ND"
+		(property "DigiKey Part #" "1428-1152-1-ND"
 			(at 212.09 74.93 0)
 			(effects
 				(font
@@ -4601,9 +4669,17 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "ICM-42605"
+		(property "Mfg Part #" "ICM-42605"
 			(at 212.09 74.93 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "14-LGA"
+			(at 212.09 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4717,7 +4793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "1276-6720-1-ND"
+		(property "DigiKey Part #" "1276-6720-1-ND"
 			(at 107.95 52.07 0)
 			(effects
 				(font
@@ -4726,9 +4802,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "CL05B104KA5NNNC"
+		(property "Mfg Part #" "CL05B104KA5NNNC"
 			(at 107.95 52.07 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 107.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 107.95 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4938,8 +5031,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "2508-R-667995TR-ND"
-			(at 101.6 128.27 90)
+		(property "DigiKey Part #" "2508-R-667995TR-ND"
+			(at 101.6 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4947,9 +5040,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "R-667995"
+		(property "Mfg Part #" "R-667995"
 			(at 101.6 128.27 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Mitsumi Electric Company Ltd"
+			(at 101.6 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMT"
+			(at 101.6 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +5201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "50-ECS-160-10-36-CKM-TR3TR-ND"
+		(property "DigiKey Part #" "50-ECS-160-10-36-CKM-TR3TR-ND"
 			(at 46.99 83.82 0)
 			(effects
 				(font
@@ -5100,9 +5210,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "ECS-160-10-36-CKM-TR3"
+		(property "Mfg Part #" "ECS-160-10-36-CKM-TR3"
 			(at 46.99 83.82 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "ECS Inc."
+			(at 46.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "4-SMD"
+			(at 46.99 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5252,7 +5379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "1276-6720-1-ND"
+		(property "DigiKey Part #" "1276-6720-1-ND"
 			(at 246.38 63.5 0)
 			(effects
 				(font
@@ -5261,9 +5388,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "CL05B104KA5NNNC"
+		(property "Mfg Part #" "CL05B104KA5NNNC"
 			(at 246.38 63.5 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 246.38 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 246.38 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5407,7 +5551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "311-1014-1-ND"
+		(property "DigiKey Part #" "311-1014-1-ND"
 			(at 57.15 87.63 0)
 			(effects
 				(font
@@ -5416,9 +5560,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "CC0402JRNPO9BN100"
+		(property "Mfg Part #" "CC0402JRNPO9BN100"
 			(at 57.15 87.63 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 57.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 57.15 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5560,8 +5721,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "311-68.0LRCT-ND"
-			(at 196.85 135.89 90)
+		(property "DigiKey Part #" "311-68.0LRCT-ND"
+			(at 196.85 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5569,9 +5730,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "RC0402FR-0768RL"
+		(property "Mfg Part #" "RC0402FR-0768RL"
 			(at 196.85 135.89 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 196.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 196.85 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5715,7 +5893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "1276-6720-1-ND"
+		(property "DigiKey Part #" "1276-6720-1-ND"
 			(at 234.95 63.5 0)
 			(effects
 				(font
@@ -5724,9 +5902,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "CL05B104KA5NNNC"
+		(property "Mfg Part #" "CL05B104KA5NNNC"
 			(at 234.95 63.5 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 234.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 234.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5804,7 +5999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "1276-6720-1-ND"
+		(property "DigiKey Part #" "1276-6720-1-ND"
 			(at 50.8 137.16 0)
 			(effects
 				(font
@@ -5813,9 +6008,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "CL05B104KA5NNNC"
+		(property "Mfg Part #" "CL05B104KA5NNNC"
 			(at 50.8 137.16 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 50.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 50.8 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5957,7 +6169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "754-1506-1-ND"
+		(property "DigiKey Part #" "754-1506-1-ND"
 			(at 209.55 133.35 0)
 			(effects
 				(font
@@ -5966,9 +6178,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "APHBM2012QBDSURKC"
+		(property "Mfg Part #" "APHBM2012QBDSURKC"
 			(at 209.55 133.35 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Kingbright"
+			(at 209.55 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 209.55 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6184,7 +6413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "1276-6720-1-ND"
+		(property "DigiKey Part #" "1276-6720-1-ND"
 			(at 130.81 52.07 0)
 			(effects
 				(font
@@ -6193,9 +6422,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "CL05B104KA5NNNC"
+		(property "Mfg Part #" "CL05B104KA5NNNC"
 			(at 130.81 52.07 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 130.81 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 130.81 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6273,7 +6519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "311-10KJRCT-ND"
+		(property "DigiKey Part #" "311-10KJRCT-ND"
 			(at 50.8 125.73 0)
 			(effects
 				(font
@@ -6282,9 +6528,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "RC0402JR-0710KL"
+		(property "Mfg Part #" "RC0402JR-0710KL"
 			(at 50.8 125.73 0)
-			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 50.8 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 50.8 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
