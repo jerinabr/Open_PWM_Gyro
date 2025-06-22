@@ -2503,7 +2503,7 @@
 		)
 		(uuid "cf89a69e-a05d-4176-adeb-1fb58c0477f5")
 	)
-	(text "nRST pin controlled by SWD interface\nAdd C11 for debounce and R3 for a stronger pull-up\nBoth these components are optional"
+	(text "nRST pin controlled by SWD interface\nAdd C12 for debounce and R3 for a stronger pull-up\nBoth these components are optional"
 		(exclude_from_sim no)
 		(at 35.56 151.638 0)
 		(effects
@@ -2514,7 +2514,7 @@
 		)
 		(uuid "dae47ffd-3e75-4850-9519-dbbbc3a87620")
 	)
-	(text "Crystal C_{L} = 10pF\nAssume C_{stray} ~= 5pF\nC_{L1} = C_{L2} = 2*(C_{L}-C_{stray}) = 10pF\nFrom app note AN2867"
+	(text "Crystal C_{L} = 10pF\nAssume C_{stray} ~= 5pF\nC_{10} = C_{11} = 2*(C_{L}-C_{stray}) = 10pF\nFrom app note AN2867"
 		(exclude_from_sim no)
 		(at 38.354 65.024 0)
 		(effects

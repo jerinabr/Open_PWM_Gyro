@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -122,12 +122,12 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1524,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.381,
+        "min_clearance": 0.15,
+        "min_connection": 0.15,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.15,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -135,9 +135,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.1524,
-        "min_via_annular_width": 0.127,
-        "min_via_diameter": 0.254,
+        "min_track_width": 0.15,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -188,9 +188,7 @@
       "track_widths": [
         0.0,
         0.2,
-        0.3,
-        0.5,
-        1.0
+        0.3
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -242,11 +240,10 @@
           2,
           5,
           9,
-          13,
           25,
           31
         ],
-        "name": "Top_Bot",
+        "name": "Top_Bot_Layers",
         "renderLayers": [
           "vias",
           "footprint_text",
@@ -275,7 +272,6 @@
           0,
           5,
           9,
-          13,
           25,
           31
         ],
@@ -682,9 +678,15 @@
         },
         {
           "group_by": false,
-          "label": "DigiKey Part #",
-          "name": "DigiKey Part #",
-          "show": true
+          "label": "PN",
+          "name": "PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
         },
         {
           "group_by": false,
@@ -694,17 +696,17 @@
         },
         {
           "group_by": false,
-          "label": "Package",
-          "name": "Package",
-          "show": false
+          "label": "DigiKey Part #",
+          "name": "DigiKey Part #",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "DigiKey Part #"
+      "sort_asc": true,
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -735,7 +737,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "./",
+    "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
