@@ -566,7 +566,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Images/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
