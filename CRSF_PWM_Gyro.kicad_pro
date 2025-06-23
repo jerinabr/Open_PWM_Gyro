@@ -566,7 +566,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Images/",
+      "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -662,7 +662,7 @@
           "group_by": false,
           "label": "MANUFACTURER",
           "name": "MANUFACTURER",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -692,7 +692,7 @@
           "group_by": false,
           "label": "Mfg Part #",
           "name": "Mfg Part #",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
