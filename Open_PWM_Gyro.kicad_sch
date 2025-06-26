@@ -1,0 +1,102 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "01c12cb5-5cfe-484a-838c-9cbfa05ce5f4")
+	(paper "A4")
+	(title_block
+		(title "CRSF_PWM_Gyro")
+		(rev "v1.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 101.6 88.9)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "87a77d67-3d8f-46b5-bc75-fb3ef7ed61f6")
+		(property "Sheetname" "Power + Connectors"
+			(at 101.6 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_And_Connectors.kicad_sch"
+			(at 101.6 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CRSF_PWM_Gyro"
+				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 88.9)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a83930c3-2f80-48e9-9a4a-06190542cdc6")
+		(property "Sheetname" "MCU + IMU"
+			(at 165.1 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_And_IMU.kicad_sch"
+			(at 165.1 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CRSF_PWM_Gyro"
+				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

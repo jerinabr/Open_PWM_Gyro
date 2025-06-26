@@ -1,0 +1,8 @@
+# Ignore folders
+*-backups/
+
+# Ignore files
+\#auto_saved_files\#
+fp-info-cache
+*.lck
+.DS_Store
