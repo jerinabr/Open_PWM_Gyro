@@ -57,7 +57,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "CRSF_PWM_Gyro.kicad_prl",
+    "filename": "Open_PWM_Gyro.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

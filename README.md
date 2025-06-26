@@ -1,4 +1,4 @@
-# CRSF_PWM_Gyro
+# Open_PWM_Gyro
 ## Description
 6-channel PWM gyro for fixed wing RC planes. Meant to be connected to an ELRS RX or other RX that outputs CRSF serial data.
 
@@ -39,6 +39,9 @@ This board features:
 | U1                    | 1   | TCR2EF33_LMCT               | Package_TO_SOT_SMD_Custom:SOT-25 SMV_TOS                              | TCR2EF33LM(CTTR-ND            |
 | U2                    | 1   | STM32G431KBTx               | Package_QFP:LQFP-32_7x7mm_P0.8mm                                      | 497-19470-ND                  |
 | Y1                    | 1   | Crystal_GND24               | Crystal_Custom:Crystal_SMD_ECS_ECX_2236-4Pin_2.5x2.0mm                | 50-ECS-160-10-36-CKM-TR3TR-ND |
+
+> [!NOTE]
+> J2 is a 3x7 2.54mm pitch pin header. This part can be replaced with three 7-pin headers or seven 3-pin headers or some other combination to save cost
 
 ## Images
 ### Schematic
