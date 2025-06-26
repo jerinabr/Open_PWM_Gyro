@@ -2,6 +2,7 @@
 ## Description
 6-channel PWM gyro for fixed wing RC planes. Meant to be connected to an ELRS RX or other RX that outputs CRSF serial data.
 
+### Layer Stackup
 This is a 4-layer board with the following stackup:
 1. Signal + Power
 2. Ground
@@ -10,14 +11,16 @@ This is a 4-layer board with the following stackup:
 
 Both ground layers are solid ground pours and aren't shown in the images section below
 
-This board features:
-
+### Features
 - USB-C for device firmware upgrade and configuration
 - SWD header for device programming and debugging
 - 2-color status LED (red, blue) controlled by the MCU
 - Boot switch to allow the device to enter the bootloader on power-up
 - 6-axis IMU (3-axis accelerometer, 3-axis gyroscope)
 - Pin header for servo/ESC connections with one 3-pin group for serial data input from the RX
+
+### Firmware
+Firmware for this gyro can be found [in this repo](https://github.com/jerinabr/Open_PWM_Gyro_Firmware)
 
 ## BOM
 | Reference             | Qty | Value                       | Footprint                                                             | DigiKey Part #                |
